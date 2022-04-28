@@ -33,3 +33,15 @@ Finished in 0.02 seconds (0.00s async, 0.02s sync)
 
 
 ## $ mix test --include pending
+Compiling 1 file (.ex)
+Including tags: [:pending]
+
+RainDropConditionalTest [test/raindrop_test.exs]
+  * test 5. Prime in 3, 5, and 7 (0.02ms) [L#26]
+  * test 2. Prime in 3 and 5 (0.00ms) [L#11]
+  * test 3. Prime in 3 and 7 (0.00ms) [L#16]
+  * test 1. Prime each 3, 5, and 7 (0.01ms) [L#4]
+  * test 4. Prime in 5 and 7 (0.00ms) [L#21]
+
+Finished in 0.03 seconds (0.00s async, 0.03s sync)
+5 tests, 0 failures
