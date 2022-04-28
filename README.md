@@ -18,6 +18,18 @@ if one number is a factor of another is to use the modulo operation.
 
 ## Test
 ## $ mix test
+Compiling 1 file (.ex)
+Excluding tags: [:pending]
+
+RainDropConditionalTest [test/romanumber_test.exs]
+  * test 5. Prime in 3, 5, and 7 (excluded) [L#26]
+  * test 3. Prime in 3 and 7 (excluded) [L#16]
+  * test 4. Prime in 5 and 7 (excluded) [L#21]
+  * test 2. Prime in 3 and 5 (excluded) [L#11]
+  * test 1. Prime each 3, 5, and 7 (0.01ms) [L#4]
+
+Finished in 0.02 seconds (0.00s async, 0.02s sync)
+5 tests, 0 failures, 4 excluded
 
 
 ## $ mix test --include pending

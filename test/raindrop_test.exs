@@ -24,7 +24,7 @@ defmodule RainDropConditionalTest do
 	
 	@tag :pending
 	test "5. Prime in 3, 5, and 7" do
-		assert RainDropConditional.convert(35) == "PlingPlangPlong"
+		assert RainDropConditional.convert(105) == "PlingPlangPlong"
 	end #test "5. Prime in 3, 5, and 7" do
   
     
